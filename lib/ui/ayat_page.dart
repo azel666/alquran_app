@@ -43,7 +43,7 @@ class _AyatPageState extends State<AyatPage> {
                     leading: CircleAvatar(
                       backgroundColor: AppColors.primary,
                       child: Text(
-                        '${ayat.id}',
+                        '${ayat.nomor}',
                         style: TextStyle(color: AppColors.white),
                       ),
                     ),
